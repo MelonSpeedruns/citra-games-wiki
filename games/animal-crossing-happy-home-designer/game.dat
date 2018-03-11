@@ -4,11 +4,6 @@ needs_system_files = false
 needs_shared_font = false
 
 [[releases]]
-title = "000400000014F000"
-region = "jap"
-release_date = "2015-07-30"
-
-[[releases]]
 title = "000400000014F100"
 region = "usa"
 release_date = "2015-09-25"
@@ -17,3 +12,8 @@ release_date = "2015-09-25"
 title = "000400000014F200"
 region = "eur"
 release_date = "2015-10-02"
+
+[[releases]]
+title = "000400000014F000"
+region = "jap"
+release_date = "2015-07-30"
