@@ -1,7 +1,12 @@
 title = "Animal Crossing: Happy Home Designer"
-description = "Animal Crossing: Happy Home Designer lets you use your creativity to make all your Animal Crossing friends happy! Design and decorate to earn items and expand your town. Plus, invite your favorite characters into your game with amiibo cards."
+description = "Animal Crossing: Happy Home Designer downplays the wider community simulation mechanics of the main Animal Crossing series in favor of focusing on house designing; players work as an employee of Nook's Homes, designing homes for other animal villagers based around their suggestions. As players progress, they will unlock additional furniture elements they can incorporate into their designs. Players can also visit the homes they have created."
 needs_system_files = false
 needs_shared_font = false
+
+[[releases]]
+title = "000400000014F000"
+region = "jap"
+release_date = "2015-07-30"
 
 [[releases]]
 title = "000400000014F100"
