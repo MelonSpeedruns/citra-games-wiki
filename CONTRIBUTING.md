@@ -41,7 +41,7 @@ The recommended application for capturing the icon, boxart, and screenshots is [
 Title IDs can be found near the top of a log when running a game. For example, this is what it looks like for The Legend of Zelda: Ocarina of Time, 0004000000033500: `[   0.019882] Loader <Info> core/loader/ncch.cpp:Load:340: Program ID: 0004000000033500`.
 
 ### TOML
-In this repo, DAT files follow the [TOML](https://github.com/toml-lang/toml) syntax, where each line consists of the creation of a peice of data. The simplest form of this is assigning a value to a key (`<Key> = <Value>`). The data types used for these `Value`s in this wiki are:
+In this repo, DAT files follow the [TOML](https://github.com/toml-lang/toml) syntax, where each line consists of the creation of a piece of data. The simplest form of this is assigning a value to a key (`<Key> = <Value>`). The data types used for these `Value`s in this wiki are:
  - Booleans, true or false (Example: `true`.)
  - Integers, numbers (Example: `5`.)
  - Strings, characters with surrounding quotes (Example: `"Hi!"`.)
@@ -127,7 +127,7 @@ The icon for a game is located at `/<Game Name>/icon.png` (See: [Screenshots](#s
 The boxart for the game is located at `/<Game Name>/boxart.png`. The suggested process for getting retail boxart is:
 - Download a scan from [GameTDB](http://www.gametdb.com/), preferably with the `Nintendo 3DS` logo on the right.
 - The boxart should be from the USA.
-- Downsize it to approximately `328x300` using [PicResize](http://www.picresize.com/).
+- Downsize it to `328x300` using [PicResize](http://www.picresize.com/).
 - Compress it using [TinyPNG](https://tinypng.com/).
 
 The required process for getting eShop only boxart is:
@@ -135,16 +135,16 @@ The required process for getting eShop only boxart is:
 - Use 1x internal resolution.
 - Increase the window size of Citra to fill most of your monitor.
 - Screenshot the title screen, which should only be the top screen.
-- Downsize it to approximately `500x300` using [PicResize](http://www.picresize.com/).
+- Downsize it to `500x300` using [PicResize](http://www.picresize.com/).
 - Compress it using [TinyPNG](https://tinypng.com/).
-- Examples are [Legend of Zelda](https://github.com/citra-emu/citra-games-wiki/blob/master/games/legend-of-zelda/boxart.png) and [Tetris](https://github.com/citra-emu/citra-games-wiki/blob/master/games/tetris/boxart.png)
+- Examples are [Fairune](https://github.com/citra-emu/citra-games-wiki/blob/master/games/fairune/boxart.png) and [Pokémon Picross](https://github.com/citra-emu/citra-games-wiki/blob/master/games/pokemon-picross/boxart.png)
 
 The required process for getting virtual console boxart is:
 - Run the game in Citra (See: [Citra Version](#citra-version)).
 - Use 1x internal resolution.
 - Increase the window size of Citra to fill most of your monitor.
 - Screenshot the title screen, which should only be the top screen.
-- Downsize it to approximately `328x300` using [PicResize](http://www.picresize.com/).
+- Downsize it to `328x300` using [PicResize](http://www.picresize.com/).
 - Compress it using [TinyPNG](https://tinypng.com/).
 - Examples are [Legend of Zelda](https://github.com/citra-emu/citra-games-wiki/blob/master/games/legend-of-zelda/boxart.png) and [Tetris](https://github.com/citra-emu/citra-games-wiki/blob/master/games/tetris/boxart.png)
 
